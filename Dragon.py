@@ -24,7 +24,7 @@ class Dragon(Sprite):
         self.image = util.cargar_imagen('imagenes/Dragon/i1.png')
         self.posX -= self.velocidad      
     
-    def update(self,sprite):
+    def actualizar(self,sprite):
         self.image= util.cargar_imagen('imagenes/Dragon/i1.png')      
         teclas = pygame.key.get_pressed()
         if teclas[K_LEFT]:
