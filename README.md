@@ -1,6 +1,6 @@
 # Adapter
 
-_Programa para el uso de Adapter con una animacion 2D **Builder** y **Abstract Factory**._
+_Programa para el uso de Adapter con una animacion 2D **Adater**._
 
 ### Pre-requisitos 📋
 
