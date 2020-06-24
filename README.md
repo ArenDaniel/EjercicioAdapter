@@ -1,6 +1,6 @@
 # Adapter
 
-_Programa para el uso de Adapter con una animacion 2D **Adater**._
+_Programa para el uso de Adapter con una animacion 2D **Adapter**._
 
 ### Pre-requisitos 📋
 
