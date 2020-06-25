@@ -3,26 +3,26 @@ from pygame.sprite import Sprite
 from pygame import *
 import util
 
-
 class Dragon(Sprite):
     def __init__(self):
         Sprite.__init__(self)
         self.velocidad = 1
+        #self.posX = 410
+        #self.posY = 560
 
-    def Posic(self, auxPosX, auxPosY):
+    def defPositions(self, auxPosX, auxPosY):
         self.posX = auxPosX
         self.posY = auxPosY
-        
+
     def set_sprites(self, sprite):
         self.imagenes = sprite
 
     def Dere(self):
         self.image = util.cargar_imagen('imagenes/Dragon/d1.png')
-        self.posX += self.velocidad
-                
+        self.posX += self.velocidad               
     def Izq(self):
         self.image = util.cargar_imagen('imagenes/Dragon/i1.png')
-        self.posX -= self.velocidad      
+        self.posX -= self.velocidad
     
     def actualizar(self,sprite):
         self.image= util.cargar_imagen('imagenes/Dragon/i1.png')      
@@ -30,7 +30,6 @@ class Dragon(Sprite):
         if teclas[K_LEFT]:
             self.Izq()
         if teclas[K_RIGHT]:
-            self.Dere()
-        
+            self.Dere()         
     def draw(self, screen):
         screen.blit(self.image, (self.posX,self.posY))

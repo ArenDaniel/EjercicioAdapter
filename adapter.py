@@ -8,16 +8,12 @@ class Dragon():
         self.velocidad = 1
     def Posic(self, auxPosX, auxPosY):
         pass
-        
-    def moverDerecha(self):
-        pass
-                
-    def moverIzquierda(self):
+    def Dere(self):
+        pass                
+    def Izq(self):
         pass   
-    
     def actualizar(self,sprite):
-        pass
-        
+        pass    
     def dibujo(self, screen):
         pass
 
@@ -33,13 +29,13 @@ class Mario(Sprite):
     def set_sprites(self, sprite):
         self.imagenes = sprite
     def moverDerecha(self):
-        self.image = util.cargar_imagen('imagenes/mario_right.png')
+        self.image = util.cargar_imagen('imagenes/Mario/mario_right.png')
         self.posX += self.velocidad
     def moverIzquierda(self):
-        self.image = util.cargar_imagen('imagenes/mario_left.png')
+        self.image = util.cargar_imagen('imagenes/Mario/mario_left.png')
         self.posX -= self.velocidad    
     def update(self,sprite):
-        self.image= util.cargar_imagen('imagenes/mario.png')      
+        self.image= util.cargar_imagen('imagenes/Mario/mario.png')      
         teclas = pygame.key.get_pressed()
         if teclas[K_LEFT]:
             self.moverIzquierda()
@@ -54,7 +50,7 @@ class Adaptador(Dragon, Mario):
         self.moverDerecha()
 
     def Izq(self):
-        self.moverDerecha
+        self.moverIzquierda()
         
     def actualizar(self,sprite):
         self.update(sprite)
