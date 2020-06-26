@@ -26,8 +26,8 @@ _Si funciona, ¡estás listo para comenzar! Si no, hay instrucciones más detall
 
 _Adapter: Se uso el modelo Adapter para ajustar el personaje Mario y el personaje Dragon._
    
-* Los metodos MoverIzquierda y Izq se usaron dentro del modelo** 
-* Los metodos de Dibujo y Actualzacion para la creacion de la animacion** 
+* Los metodos MoverIzquierda y Izq se usaron dentro del modelo adaptado para que ambos personajes funcionen
+* Los metodos de Dibujo y Actualzacion para la creacion de la animacion se implementaron de la misma forma en el programa
 
 ## Autores ✒️
 
