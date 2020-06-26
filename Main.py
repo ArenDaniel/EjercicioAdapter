@@ -37,7 +37,7 @@ def game():
                     heroe.draw(screen)
                 pygame.display.update() 
         if teclas[K_s]:
-            background_image = util.cargar_imagen('imagenes/Dragon/fondo.jpg')        
+            background_image = util.cargar_imagen('imagenes/Mario/fondo.jpg')        
             posX=200
             posY=200
             adaptado = Adaptador()
