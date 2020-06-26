@@ -9,7 +9,7 @@ def game():
     pygame.init()
     screen = pygame.display.set_mode((626, 417))
     pygame.display.set_caption("adapter")
-    inicio_image = util.cargar_imagen('imagenes/Dragon/fondo.gif')
+    inicio_image = util.cargar_imagen('imagenes/Inicio.png')
     screen.blit(inicio_image, (0, 0))
     pygame.mouse.set_visible(False)
     ejecutando = True
