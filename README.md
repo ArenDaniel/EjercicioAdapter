@@ -22,9 +22,9 @@ python3 -m pygame.examples.aliens
 ```
 _Si funciona, ¡estás listo para comenzar! Si no, hay instrucciones más detalladas y específicas de la plataforma más abajo en la página._
 
-## Patrones de Diseño ⚙️
-
 ### Patrones de Estructurales
+
+_Adapter: _
 
 ## Autores ✒️
 
